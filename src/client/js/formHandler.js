@@ -73,6 +73,7 @@ const postData = async (path, data) => {
 	}
 };
 
+
 /* Function to GET Project Data */
 const updateUI = async () => {
 	const req = await fetch('http://localhost:8081/all');

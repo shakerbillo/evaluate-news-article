@@ -9,9 +9,6 @@ import './styles/header.scss'
 
 console.log(checkForURL);
 
-// alert("Can you see me!")
-// console.log("CHANGE!!");
-
 export {
     checkForURL,
     handleSubmit
