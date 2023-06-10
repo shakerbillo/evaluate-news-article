@@ -32,7 +32,7 @@ const handleSubmit = (e) => {
 
 					subjectivity: data.subjectivity,
 				};
-				postData('http://localhost:8081/api', info);
+				postData('/api', info);
 			})
 			.then(() => {
 				updateUI(); // Update UI data
@@ -76,7 +76,7 @@ const postData = async (path, data) => {
 
 /* Function to GET Project Data */
 const updateUI = async () => {
-	const req = await fetch('http://localhost:8081/all');
+	const req = await fetch('/all');
 	try {
 		const allData = await req.json();
 		console.log(allData);
