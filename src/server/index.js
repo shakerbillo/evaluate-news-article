@@ -33,7 +33,8 @@ console.log(__dirname);
 
 // Initiate GET route
 const fileSend = (req, res) => {
-	res.sendFile('dist/index.html');
+	res.sendFile(path.resolve('dist/index.html'));
+	// res.sendFile('dist/index.html');
 };
 app.get('/', fileSend);
 
