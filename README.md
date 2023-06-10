@@ -2,7 +2,7 @@
 
 # Description
 
-Udacity Front End Nanodegree project. This project requires you to build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. NLP is the ability of an application to understand the human language, written or oral.
+Web applications that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. This wep app will give back pertinent information about the article: whether the content is subjective (opinion) or objective (fact-based) and whether it is positive, neutral, or negative in tone.
 
 # Table of Contents
 

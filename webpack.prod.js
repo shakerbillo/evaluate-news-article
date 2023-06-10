@@ -45,7 +45,10 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({filename: '[name].css'}),
         new WorkboxPlugin.GenerateSW(),
-        new Dotenv()
+        new Dotenv(),
+        new CleanWebpackPlugin({
+            cleanOnceBeforeBuildPatterns: ['dist/*'], 
+          })
         ],
         output: {
             path: path.resolve(__dirname, 'dist'),
